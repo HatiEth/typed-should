@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "echo building... && typings bundle --ambient -o out",
+    "test": "echo testing... && cd test && mocha --require ts-node/register -- test.ts",
+    "watch": "onchange \"**/*.ts\" -i -e \"out/**\" -- npm -s run build+test",
+    "build+test": "npm run build && npm run test",
+    "prepublish": "typings install"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "onchange": "^2.2.0",
+    "should": "8.3.1",
+    "tap-spec": "^4.1.1",
+    "ts-node": "^0.7.1",
+    "tslint": "^3.7.0",
+    "tslint-config-typings": "^0.2.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.11"
+  }
+}

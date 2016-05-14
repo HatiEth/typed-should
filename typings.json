@@ -1,0 +1,11 @@
+{
+  "name": "should",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/shouldjs/should.js",
+  "version": "8.3.0",
+  "devDependencies": {},
+  "ambientDevDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654",
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
+}

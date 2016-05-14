@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "noImplicitAny": true,
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "out"
+  },
+  "exclude": [
+    "node_modules",
+    "typings/browser",
+    "typings/browser.d.ts",
+    "out/main.d.ts",
+    "out/browser.d.ts",
+    "source"
+  ]
+}
